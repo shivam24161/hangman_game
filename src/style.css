@@ -1,0 +1,51 @@
+.letter_div{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+    width: 54vw;
+}
+.btn{
+    font-size: 2vw;
+    cursor: pointer;
+    padding: 1vw;
+    background-color: olive;
+    color: aliceblue;
+    border: none;
+}
+.input{
+    margin-top: 1vw;
+    text-align: center;
+}
+.startbtn{
+    font-size: 1.5vw;
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 1vw;
+    font-weight: bold;
+}
+input[type=text]{
+    font-size: 1.5vw;
+}
+.inputdiv{
+    display: flex;
+    gap: 1vw;
+    width: 100%;
+}
+.main_div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+#reset{
+    margin-top: 3vw;
+}
+.heading{
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 2vw;
+    text-decoration: underline;
+}
